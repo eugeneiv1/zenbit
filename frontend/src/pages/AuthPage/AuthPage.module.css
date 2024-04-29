@@ -1,0 +1,43 @@
+.login_container {
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+.login_image {
+    background: no-repeat url("./assets/login.jpg");
+    background-size: cover;
+    width: 62%;
+    height: 100%;
+}
+
+.login_form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 38%;
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 0 15px
+}
+
+.forgot_link {
+    font-family: Lato, serif;
+    font-weight: 600;
+    line-height: 22px;
+    color: #B29F7E;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.login_form > p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link {
+    color: #B29F7E;
+    text-decoration: none;
+}

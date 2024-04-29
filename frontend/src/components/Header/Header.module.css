@@ -1,0 +1,18 @@
+.header {
+    min-height: 80px;
+    background-color: #172234;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 80px;
+}
+
+.button_container {
+    display: flex;
+    gap: 10px;
+    min-width: 330px;
+}
+
+.link_button {
+    width: 100%;
+}

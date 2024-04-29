@@ -1,0 +1,26 @@
+.button {
+    font-family: Merriweather, serif;
+    font-size: 16px;
+    min-height: 42px;
+    border: 1px solid #B29F7E;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.mainButton{
+    color: #FFF;
+    background-color: #B29F7E;
+}
+
+.altButton {
+    background-color: transparent;
+    color: #B29F7E;
+}
+
+.altLightButton {
+    background-color: transparent;
+    color: #FFF;
+    border-color: #FFF;
+    max-width: 160px;
+}
