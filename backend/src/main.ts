@@ -8,12 +8,7 @@ import { AppConfig, Config } from './configs/config.type';
 import { AppModule } from './modules/app.module';
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule, {
-    cors: {
-      origin: '*', // Replace with your frontend origin
-      methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    },
-  });
+  const app = await NestFactory.create(AppModule, { cors: true });
 
   const swaggerConfig = new DocumentBuilder()
     .setTitle('Zenbit API')

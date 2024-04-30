@@ -4,6 +4,7 @@ import { ScheduleModule } from '@nestjs/schedule';
 import { MailerModule } from '@nestjs-modules/mailer';
 
 import configuration from '../configs/config';
+import { DbInitService } from '../services/db-init.service';
 import { AuthModule } from './auth/auth.module';
 import { DealModule } from './deal/deal.module';
 import { PostgressModule } from './postgress/postgress.module';
@@ -37,6 +38,6 @@ import { UserModule } from './user/user.module';
     UserModule,
   ],
   controllers: [],
-  providers: [],
+  providers: [DbInitService],
 })
 export class AppModule {}
